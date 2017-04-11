@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/event_prompt"/>-->
+
+    <EditText
+        android:id="@+id/dialog_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:inputType="textMultiLine|textCapSentences|textAutoCorrect"
+        android:lines="4"
+        android:imeOptions="actionDone"
+        />
+
+</LinearLayout>

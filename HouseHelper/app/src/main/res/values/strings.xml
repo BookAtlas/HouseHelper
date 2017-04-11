@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HouseHelper</string>
+    <string name="dialog_add_task">Add Task</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="toast_event_saved">Event Created!!</string>
+    <string name="event_prompt">Task Details:</string>
+    <string name="toast_event_cancelled">Cancelled Task Creation</string>
+    <string name="task_placeholder">TASK DESC HERE</string>
+</resources>
